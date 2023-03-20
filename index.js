@@ -25,8 +25,7 @@
        }
 
        function prependCat(name) {
-           const cats=[name,...cats]
-           return cats
+         return [name,...cats];
        }
 
        function removeLastCat() {
@@ -38,3 +37,4 @@
            const cats4=cats.slice(1)
            return cats4
        }
+
